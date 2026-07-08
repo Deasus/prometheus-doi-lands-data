@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T17:49:45Z",
+  "generated": "2026-07-08T18:02:25Z",
   "note": "Douglas-Peucker simplification tolerance sweep. per_tol_national computed over ALL features. per_unit is a 20-unit sample (5 smallest + 10 middle + 5 largest by raw area).",
   "locked_tolerance_deg": 0.001,
   "tolerances_swept": [
@@ -13,32 +13,32 @@
   "per_tolerance_national": {
     "0.005": {
       "national_true_acres": 85191004.8,
-      "national_simplified_acres": 85190378.3,
-      "national_pct_error": 0.0007
+      "national_simplified_acres": 85175634.9,
+      "national_pct_error": 0.018
     },
     "0.002": {
       "national_true_acres": 85191004.8,
-      "national_simplified_acres": 85173453.3,
-      "national_pct_error": 0.0206
+      "national_simplified_acres": 85171073.6,
+      "national_pct_error": 0.0234
     },
     "0.001": {
       "national_true_acres": 85191004.8,
-      "national_simplified_acres": 85179750.8,
-      "national_pct_error": 0.0132
+      "national_simplified_acres": 85179140.1,
+      "national_pct_error": 0.0139
     },
     "0.0005": {
       "national_true_acres": 85191004.8,
-      "national_simplified_acres": 85183107.6,
-      "national_pct_error": 0.0093
+      "national_simplified_acres": 85183410.2,
+      "national_pct_error": 0.0089
     },
     "0.0002": {
       "national_true_acres": 85191004.8,
-      "national_simplified_acres": 85189977.9,
+      "national_simplified_acres": 85189966.3,
       "national_pct_error": 0.0012
     },
     "0.0001": {
       "national_true_acres": 85191004.8,
-      "national_simplified_acres": 85191693.3,
+      "national_simplified_acres": 85191710.8,
       "national_pct_error": 0.0008
     }
   },
@@ -47,28 +47,28 @@
       "true_acres": 0.03,
       "by_tolerance": {
         "0.005": {
-          "acres": 0.03,
-          "pct_error": 0.0027
+          "acres": 0.01,
+          "pct_error": 1.3925
         },
         "0.002": {
-          "acres": 0.03,
-          "pct_error": 0.0027
+          "acres": 0.01,
+          "pct_error": 1.3925
         },
         "0.001": {
-          "acres": 0.03,
-          "pct_error": 0.0027
+          "acres": 0.01,
+          "pct_error": 1.3925
         },
         "0.0005": {
-          "acres": 0.03,
-          "pct_error": 0.0027
+          "acres": 0.01,
+          "pct_error": 1.3925
         },
         "0.0002": {
-          "acres": 0.03,
-          "pct_error": 0.0027
+          "acres": 0.01,
+          "pct_error": 1.3925
         },
         "0.0001": {
-          "acres": 0.03,
-          "pct_error": 0.0027
+          "acres": 0.01,
+          "pct_error": 1.3925
         }
       }
     },
@@ -105,24 +105,24 @@
       "true_acres": 0.09,
       "by_tolerance": {
         "0.005": {
-          "acres": 0.09,
-          "pct_error": 0.0052
+          "acres": 0.05,
+          "pct_error": 4.1068
         },
         "0.002": {
-          "acres": 0.09,
-          "pct_error": 0.0052
+          "acres": 0.05,
+          "pct_error": 4.1068
         },
         "0.001": {
-          "acres": 0.09,
-          "pct_error": 0.0052
+          "acres": 0.05,
+          "pct_error": 4.1068
         },
         "0.0005": {
-          "acres": 0.09,
-          "pct_error": 0.0052
+          "acres": 0.05,
+          "pct_error": 4.1068
         },
         "0.0002": {
-          "acres": 0.09,
-          "pct_error": 0.0052
+          "acres": 0.05,
+          "pct_error": 4.1068
         },
         "0.0001": {
           "acres": 0.09,
@@ -134,24 +134,24 @@
       "true_acres": 0.11,
       "by_tolerance": {
         "0.005": {
-          "acres": 0.11,
-          "pct_error": 0.0
+          "acres": 0.05,
+          "pct_error": 5.2801
         },
         "0.002": {
-          "acres": 0.11,
-          "pct_error": 0.0
+          "acres": 0.05,
+          "pct_error": 5.2801
         },
         "0.001": {
-          "acres": 0.11,
-          "pct_error": 0.0
+          "acres": 0.05,
+          "pct_error": 5.2801
         },
         "0.0005": {
-          "acres": 0.11,
-          "pct_error": 0.0
+          "acres": 0.05,
+          "pct_error": 5.2801
         },
         "0.0002": {
-          "acres": 0.11,
-          "pct_error": 0.0
+          "acres": 0.05,
+          "pct_error": 5.2801
         },
         "0.0001": {
           "acres": 0.11,
@@ -163,24 +163,24 @@
       "true_acres": 0.19,
       "by_tolerance": {
         "0.005": {
-          "acres": 0.18,
-          "pct_error": 0.8799
+          "acres": 0.07,
+          "pct_error": 11.6717
         },
         "0.002": {
-          "acres": 0.18,
-          "pct_error": 0.8799
+          "acres": 0.07,
+          "pct_error": 11.6717
         },
         "0.001": {
-          "acres": 0.18,
-          "pct_error": 0.8799
+          "acres": 0.07,
+          "pct_error": 11.6717
         },
         "0.0005": {
-          "acres": 0.18,
-          "pct_error": 0.8799
+          "acres": 0.07,
+          "pct_error": 11.6717
         },
         "0.0002": {
-          "acres": 0.18,
-          "pct_error": 0.8799
+          "acres": 0.07,
+          "pct_error": 11.6717
         },
         "0.0001": {
           "acres": 0.18,
@@ -192,28 +192,28 @@
       "true_acres": 0.3,
       "by_tolerance": {
         "0.005": {
-          "acres": 0.28,
-          "pct_error": 1.7559
+          "acres": 0.16,
+          "pct_error": 13.835
         },
         "0.002": {
-          "acres": 0.28,
-          "pct_error": 1.7559
+          "acres": 0.16,
+          "pct_error": 13.835
         },
         "0.001": {
-          "acres": 0.28,
-          "pct_error": 1.7559
+          "acres": 0.16,
+          "pct_error": 13.835
         },
         "0.0005": {
-          "acres": 0.28,
-          "pct_error": 1.7559
+          "acres": 0.16,
+          "pct_error": 13.835
         },
         "0.0002": {
-          "acres": 0.28,
-          "pct_error": 1.7559
+          "acres": 0.16,
+          "pct_error": 13.835
         },
         "0.0001": {
           "acres": 0.3,
-          "pct_error": 0.0659
+          "pct_error": 0.1783
         }
       }
     },
@@ -221,16 +221,16 @@
       "true_acres": 9.88,
       "by_tolerance": {
         "0.005": {
-          "acres": 6.9,
-          "pct_error": 30.1057
+          "acres": 5.0,
+          "pct_error": 49.3346
         },
         "0.002": {
-          "acres": 6.9,
-          "pct_error": 30.1057
+          "acres": 5.0,
+          "pct_error": 49.3346
         },
         "0.001": {
-          "acres": 6.9,
-          "pct_error": 30.1057
+          "acres": 5.0,
+          "pct_error": 49.3346
         },
         "0.0005": {
           "acres": 9.37,
@@ -250,28 +250,28 @@
       "true_acres": 51.37,
       "by_tolerance": {
         "0.005": {
-          "acres": 32.75,
-          "pct_error": 36.2376
+          "acres": 32.41,
+          "pct_error": 36.8953
         },
         "0.002": {
-          "acres": 59.57,
-          "pct_error": 15.9781
+          "acres": 51.01,
+          "pct_error": 0.7008
         },
         "0.001": {
-          "acres": 54.5,
-          "pct_error": 6.0968
+          "acres": 54.16,
+          "pct_error": 5.4392
         },
         "0.0005": {
-          "acres": 52.6,
-          "pct_error": 2.3927
+          "acres": 52.91,
+          "pct_error": 3.0151
         },
         "0.0002": {
-          "acres": 51.88,
-          "pct_error": 1.005
+          "acres": 51.91,
+          "pct_error": 1.0683
         },
         "0.0001": {
-          "acres": 51.47,
-          "pct_error": 0.2114
+          "acres": 51.51,
+          "pct_error": 0.2856
         }
       }
     },
@@ -283,16 +283,16 @@
           "pct_error": 26.327
         },
         "0.002": {
-          "acres": 191.8,
-          "pct_error": 2.5527
+          "acres": 183.79,
+          "pct_error": 1.731
         },
         "0.001": {
-          "acres": 191.8,
-          "pct_error": 2.5527
+          "acres": 183.79,
+          "pct_error": 1.731
         },
         "0.0005": {
-          "acres": 185.08,
-          "pct_error": 1.04
+          "acres": 183.47,
+          "pct_error": 1.9002
         },
         "0.0002": {
           "acres": 185.05,
@@ -308,28 +308,28 @@
       "true_acres": 720.84,
       "by_tolerance": {
         "0.005": {
-          "acres": 635.63,
-          "pct_error": 11.8208
+          "acres": 469.74,
+          "pct_error": 34.8351
         },
         "0.002": {
-          "acres": 619.11,
-          "pct_error": 14.1128
+          "acres": 589.74,
+          "pct_error": 18.1877
         },
         "0.001": {
-          "acres": 722.79,
-          "pct_error": 0.2697
+          "acres": 715.72,
+          "pct_error": 0.7102
         },
         "0.0005": {
-          "acres": 719.16,
-          "pct_error": 0.233
+          "acres": 719.92,
+          "pct_error": 0.1272
         },
         "0.0002": {
-          "acres": 724.06,
-          "pct_error": 0.4466
+          "acres": 725.66,
+          "pct_error": 0.6691
         },
         "0.0001": {
-          "acres": 723.21,
-          "pct_error": 0.3281
+          "acres": 723.34,
+          "pct_error": 0.3467
         }
       }
     },
@@ -366,16 +366,16 @@
       "true_acres": 5457.06,
       "by_tolerance": {
         "0.005": {
-          "acres": 5063.92,
-          "pct_error": 7.2043
+          "acres": 5180.68,
+          "pct_error": 5.0646
         },
         "0.002": {
-          "acres": 5451.76,
-          "pct_error": 0.0971
+          "acres": 5448.34,
+          "pct_error": 0.1599
         },
         "0.001": {
-          "acres": 5477.38,
-          "pct_error": 0.3724
+          "acres": 5483.38,
+          "pct_error": 0.4823
         },
         "0.0005": {
           "acres": 5456.71,
@@ -395,28 +395,28 @@
       "true_acres": 20881.78,
       "by_tolerance": {
         "0.005": {
-          "acres": 27356.66,
-          "pct_error": 31.0073
+          "acres": 27157.84,
+          "pct_error": 30.0552
         },
         "0.002": {
-          "acres": 22649.03,
-          "pct_error": 8.4631
+          "acres": 22568.26,
+          "pct_error": 8.0763
         },
         "0.001": {
-          "acres": 21224.89,
-          "pct_error": 1.6431
+          "acres": 21213.65,
+          "pct_error": 1.5892
         },
         "0.0005": {
-          "acres": 20959.07,
-          "pct_error": 0.3701
+          "acres": 20950.85,
+          "pct_error": 0.3307
         },
         "0.0002": {
-          "acres": 20917.94,
-          "pct_error": 0.1731
+          "acres": 20915.92,
+          "pct_error": 0.1635
         },
         "0.0001": {
-          "acres": 20889.95,
-          "pct_error": 0.0391
+          "acres": 20889.68,
+          "pct_error": 0.0378
         }
       }
     },
@@ -424,28 +424,28 @@
       "true_acres": 71865.04,
       "by_tolerance": {
         "0.005": {
-          "acres": 72193.91,
-          "pct_error": 0.4576
+          "acres": 72208.94,
+          "pct_error": 0.4785
         },
         "0.002": {
-          "acres": 71756.06,
-          "pct_error": 0.1516
+          "acres": 71753.22,
+          "pct_error": 0.1556
         },
         "0.001": {
-          "acres": 71699.79,
-          "pct_error": 0.2299
+          "acres": 71700.1,
+          "pct_error": 0.2295
         },
         "0.0005": {
-          "acres": 71935.67,
-          "pct_error": 0.0983
+          "acres": 71935.98,
+          "pct_error": 0.0987
         },
         "0.0002": {
-          "acres": 71880.09,
-          "pct_error": 0.0209
+          "acres": 71880.11,
+          "pct_error": 0.021
         },
         "0.0001": {
-          "acres": 71858.03,
-          "pct_error": 0.0098
+          "acres": 71857.88,
+          "pct_error": 0.01
         }
       }
     },
@@ -453,28 +453,28 @@
       "true_acres": 245685.16,
       "by_tolerance": {
         "0.005": {
-          "acres": 239489.16,
-          "pct_error": 2.5219
+          "acres": 239488.04,
+          "pct_error": 2.5224
         },
         "0.002": {
-          "acres": 242847.01,
-          "pct_error": 1.1552
+          "acres": 242845.89,
+          "pct_error": 1.1557
         },
         "0.001": {
-          "acres": 244008.79,
-          "pct_error": 0.6823
+          "acres": 244007.67,
+          "pct_error": 0.6828
         },
         "0.0005": {
           "acres": 244703.9,
           "pct_error": 0.3994
         },
         "0.0002": {
-          "acres": 245264.2,
-          "pct_error": 0.1713
+          "acres": 245264.09,
+          "pct_error": 0.1714
         },
         "0.0001": {
-          "acres": 245473.33,
-          "pct_error": 0.0862
+          "acres": 245473.21,
+          "pct_error": 0.0863
         }
       }
     },
@@ -482,27 +482,27 @@
       "true_acres": 4857813.65,
       "by_tolerance": {
         "0.005": {
-          "acres": 4856625.99,
-          "pct_error": 0.0244
+          "acres": 4856623.99,
+          "pct_error": 0.0245
         },
         "0.002": {
-          "acres": 4858144.79,
+          "acres": 4858142.79,
           "pct_error": 0.0068
         },
         "0.001": {
-          "acres": 4859187.11,
-          "pct_error": 0.0283
+          "acres": 4859182.43,
+          "pct_error": 0.0282
         },
         "0.0005": {
-          "acres": 4859052.21,
-          "pct_error": 0.0255
+          "acres": 4859049.49,
+          "pct_error": 0.0254
         },
         "0.0002": {
-          "acres": 4859082.49,
+          "acres": 4859082.48,
           "pct_error": 0.0261
         },
         "0.0001": {
-          "acres": 4859068.15,
+          "acres": 4859068.03,
           "pct_error": 0.0258
         }
       }
@@ -540,27 +540,27 @@
       "true_acres": 8322022.02,
       "by_tolerance": {
         "0.005": {
-          "acres": 8324274.38,
-          "pct_error": 0.0271
+          "acres": 8324983.06,
+          "pct_error": 0.0356
         },
         "0.002": {
-          "acres": 8321971.7,
+          "acres": 8321972.74,
           "pct_error": 0.0006
         },
         "0.001": {
-          "acres": 8321453.5,
-          "pct_error": 0.0068
+          "acres": 8321466.07,
+          "pct_error": 0.0067
         },
         "0.0005": {
-          "acres": 8321738.11,
+          "acres": 8321737.74,
           "pct_error": 0.0034
         },
         "0.0002": {
-          "acres": 8321778.68,
+          "acres": 8321778.55,
           "pct_error": 0.0029
         },
         "0.0001": {
-          "acres": 8321839.54,
+          "acres": 8321839.52,
           "pct_error": 0.0022
         }
       }
@@ -569,11 +569,11 @@
       "true_acres": 6579912.15,
       "by_tolerance": {
         "0.005": {
-          "acres": 6579159.98,
-          "pct_error": 0.0114
+          "acres": 6579111.84,
+          "pct_error": 0.0122
         },
         "0.002": {
-          "acres": 6579120.62,
+          "acres": 6579125.4,
           "pct_error": 0.012
         },
         "0.001": {
