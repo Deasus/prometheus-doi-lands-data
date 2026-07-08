@@ -1,0 +1,627 @@
+{
+  "generated": "2026-07-08T17:49:45Z",
+  "note": "Douglas-Peucker simplification tolerance sweep. per_tol_national computed over ALL features. per_unit is a 20-unit sample (5 smallest + 10 middle + 5 largest by raw area).",
+  "locked_tolerance_deg": 0.001,
+  "tolerances_swept": [
+    "0.005",
+    "0.002",
+    "0.001",
+    "0.0005",
+    "0.0002",
+    "0.0001"
+  ],
+  "per_tolerance_national": {
+    "0.005": {
+      "national_true_acres": 85191004.8,
+      "national_simplified_acres": 85190378.3,
+      "national_pct_error": 0.0007
+    },
+    "0.002": {
+      "national_true_acres": 85191004.8,
+      "national_simplified_acres": 85173453.3,
+      "national_pct_error": 0.0206
+    },
+    "0.001": {
+      "national_true_acres": 85191004.8,
+      "national_simplified_acres": 85179750.8,
+      "national_pct_error": 0.0132
+    },
+    "0.0005": {
+      "national_true_acres": 85191004.8,
+      "national_simplified_acres": 85183107.6,
+      "national_pct_error": 0.0093
+    },
+    "0.0002": {
+      "national_true_acres": 85191004.8,
+      "national_simplified_acres": 85189977.9,
+      "national_pct_error": 0.0012
+    },
+    "0.0001": {
+      "national_true_acres": 85191004.8,
+      "national_simplified_acres": 85191693.3,
+      "national_pct_error": 0.0008
+    }
+  },
+  "sample_units": [
+    {
+      "true_acres": 0.03,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 0.03,
+          "pct_error": 0.0027
+        },
+        "0.002": {
+          "acres": 0.03,
+          "pct_error": 0.0027
+        },
+        "0.001": {
+          "acres": 0.03,
+          "pct_error": 0.0027
+        },
+        "0.0005": {
+          "acres": 0.03,
+          "pct_error": 0.0027
+        },
+        "0.0002": {
+          "acres": 0.03,
+          "pct_error": 0.0027
+        },
+        "0.0001": {
+          "acres": 0.03,
+          "pct_error": 0.0027
+        }
+      }
+    },
+    {
+      "true_acres": 0.08,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 0.04,
+          "pct_error": 3.8783
+        },
+        "0.002": {
+          "acres": 0.04,
+          "pct_error": 3.8783
+        },
+        "0.001": {
+          "acres": 0.04,
+          "pct_error": 3.8783
+        },
+        "0.0005": {
+          "acres": 0.04,
+          "pct_error": 3.8783
+        },
+        "0.0002": {
+          "acres": 0.04,
+          "pct_error": 3.8783
+        },
+        "0.0001": {
+          "acres": 0.04,
+          "pct_error": 3.8783
+        }
+      }
+    },
+    {
+      "true_acres": 0.09,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 0.09,
+          "pct_error": 0.0052
+        },
+        "0.002": {
+          "acres": 0.09,
+          "pct_error": 0.0052
+        },
+        "0.001": {
+          "acres": 0.09,
+          "pct_error": 0.0052
+        },
+        "0.0005": {
+          "acres": 0.09,
+          "pct_error": 0.0052
+        },
+        "0.0002": {
+          "acres": 0.09,
+          "pct_error": 0.0052
+        },
+        "0.0001": {
+          "acres": 0.09,
+          "pct_error": 0.0052
+        }
+      }
+    },
+    {
+      "true_acres": 0.11,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 0.11,
+          "pct_error": 0.0
+        },
+        "0.002": {
+          "acres": 0.11,
+          "pct_error": 0.0
+        },
+        "0.001": {
+          "acres": 0.11,
+          "pct_error": 0.0
+        },
+        "0.0005": {
+          "acres": 0.11,
+          "pct_error": 0.0
+        },
+        "0.0002": {
+          "acres": 0.11,
+          "pct_error": 0.0
+        },
+        "0.0001": {
+          "acres": 0.11,
+          "pct_error": 0.0
+        }
+      }
+    },
+    {
+      "true_acres": 0.19,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 0.18,
+          "pct_error": 0.8799
+        },
+        "0.002": {
+          "acres": 0.18,
+          "pct_error": 0.8799
+        },
+        "0.001": {
+          "acres": 0.18,
+          "pct_error": 0.8799
+        },
+        "0.0005": {
+          "acres": 0.18,
+          "pct_error": 0.8799
+        },
+        "0.0002": {
+          "acres": 0.18,
+          "pct_error": 0.8799
+        },
+        "0.0001": {
+          "acres": 0.18,
+          "pct_error": 0.8799
+        }
+      }
+    },
+    {
+      "true_acres": 0.3,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 0.28,
+          "pct_error": 1.7559
+        },
+        "0.002": {
+          "acres": 0.28,
+          "pct_error": 1.7559
+        },
+        "0.001": {
+          "acres": 0.28,
+          "pct_error": 1.7559
+        },
+        "0.0005": {
+          "acres": 0.28,
+          "pct_error": 1.7559
+        },
+        "0.0002": {
+          "acres": 0.28,
+          "pct_error": 1.7559
+        },
+        "0.0001": {
+          "acres": 0.3,
+          "pct_error": 0.0659
+        }
+      }
+    },
+    {
+      "true_acres": 9.88,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 6.9,
+          "pct_error": 30.1057
+        },
+        "0.002": {
+          "acres": 6.9,
+          "pct_error": 30.1057
+        },
+        "0.001": {
+          "acres": 6.9,
+          "pct_error": 30.1057
+        },
+        "0.0005": {
+          "acres": 9.37,
+          "pct_error": 5.1098
+        },
+        "0.0002": {
+          "acres": 9.94,
+          "pct_error": 0.6445
+        },
+        "0.0001": {
+          "acres": 9.89,
+          "pct_error": 0.1248
+        }
+      }
+    },
+    {
+      "true_acres": 51.37,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 32.75,
+          "pct_error": 36.2376
+        },
+        "0.002": {
+          "acres": 59.57,
+          "pct_error": 15.9781
+        },
+        "0.001": {
+          "acres": 54.5,
+          "pct_error": 6.0968
+        },
+        "0.0005": {
+          "acres": 52.6,
+          "pct_error": 2.3927
+        },
+        "0.0002": {
+          "acres": 51.88,
+          "pct_error": 1.005
+        },
+        "0.0001": {
+          "acres": 51.47,
+          "pct_error": 0.2114
+        }
+      }
+    },
+    {
+      "true_acres": 187.02,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 137.79,
+          "pct_error": 26.327
+        },
+        "0.002": {
+          "acres": 191.8,
+          "pct_error": 2.5527
+        },
+        "0.001": {
+          "acres": 191.8,
+          "pct_error": 2.5527
+        },
+        "0.0005": {
+          "acres": 185.08,
+          "pct_error": 1.04
+        },
+        "0.0002": {
+          "acres": 185.05,
+          "pct_error": 1.0582
+        },
+        "0.0001": {
+          "acres": 186.62,
+          "pct_error": 0.2181
+        }
+      }
+    },
+    {
+      "true_acres": 720.84,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 635.63,
+          "pct_error": 11.8208
+        },
+        "0.002": {
+          "acres": 619.11,
+          "pct_error": 14.1128
+        },
+        "0.001": {
+          "acres": 722.79,
+          "pct_error": 0.2697
+        },
+        "0.0005": {
+          "acres": 719.16,
+          "pct_error": 0.233
+        },
+        "0.0002": {
+          "acres": 724.06,
+          "pct_error": 0.4466
+        },
+        "0.0001": {
+          "acres": 723.21,
+          "pct_error": 0.3281
+        }
+      }
+    },
+    {
+      "true_acres": 1688.01,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 1538.18,
+          "pct_error": 8.8763
+        },
+        "0.002": {
+          "acres": 1643.9,
+          "pct_error": 2.613
+        },
+        "0.001": {
+          "acres": 1679.02,
+          "pct_error": 0.5325
+        },
+        "0.0005": {
+          "acres": 1688.99,
+          "pct_error": 0.0582
+        },
+        "0.0002": {
+          "acres": 1688.99,
+          "pct_error": 0.0581
+        },
+        "0.0001": {
+          "acres": 1688.99,
+          "pct_error": 0.0581
+        }
+      }
+    },
+    {
+      "true_acres": 5457.06,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 5063.92,
+          "pct_error": 7.2043
+        },
+        "0.002": {
+          "acres": 5451.76,
+          "pct_error": 0.0971
+        },
+        "0.001": {
+          "acres": 5477.38,
+          "pct_error": 0.3724
+        },
+        "0.0005": {
+          "acres": 5456.71,
+          "pct_error": 0.0065
+        },
+        "0.0002": {
+          "acres": 5462.23,
+          "pct_error": 0.0946
+        },
+        "0.0001": {
+          "acres": 5456.48,
+          "pct_error": 0.0107
+        }
+      }
+    },
+    {
+      "true_acres": 20881.78,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 27356.66,
+          "pct_error": 31.0073
+        },
+        "0.002": {
+          "acres": 22649.03,
+          "pct_error": 8.4631
+        },
+        "0.001": {
+          "acres": 21224.89,
+          "pct_error": 1.6431
+        },
+        "0.0005": {
+          "acres": 20959.07,
+          "pct_error": 0.3701
+        },
+        "0.0002": {
+          "acres": 20917.94,
+          "pct_error": 0.1731
+        },
+        "0.0001": {
+          "acres": 20889.95,
+          "pct_error": 0.0391
+        }
+      }
+    },
+    {
+      "true_acres": 71865.04,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 72193.91,
+          "pct_error": 0.4576
+        },
+        "0.002": {
+          "acres": 71756.06,
+          "pct_error": 0.1516
+        },
+        "0.001": {
+          "acres": 71699.79,
+          "pct_error": 0.2299
+        },
+        "0.0005": {
+          "acres": 71935.67,
+          "pct_error": 0.0983
+        },
+        "0.0002": {
+          "acres": 71880.09,
+          "pct_error": 0.0209
+        },
+        "0.0001": {
+          "acres": 71858.03,
+          "pct_error": 0.0098
+        }
+      }
+    },
+    {
+      "true_acres": 245685.16,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 239489.16,
+          "pct_error": 2.5219
+        },
+        "0.002": {
+          "acres": 242847.01,
+          "pct_error": 1.1552
+        },
+        "0.001": {
+          "acres": 244008.79,
+          "pct_error": 0.6823
+        },
+        "0.0005": {
+          "acres": 244703.9,
+          "pct_error": 0.3994
+        },
+        "0.0002": {
+          "acres": 245264.2,
+          "pct_error": 0.1713
+        },
+        "0.0001": {
+          "acres": 245473.33,
+          "pct_error": 0.0862
+        }
+      }
+    },
+    {
+      "true_acres": 4857813.65,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 4856625.99,
+          "pct_error": 0.0244
+        },
+        "0.002": {
+          "acres": 4858144.79,
+          "pct_error": 0.0068
+        },
+        "0.001": {
+          "acres": 4859187.11,
+          "pct_error": 0.0283
+        },
+        "0.0005": {
+          "acres": 4859052.21,
+          "pct_error": 0.0255
+        },
+        "0.0002": {
+          "acres": 4859082.49,
+          "pct_error": 0.0261
+        },
+        "0.0001": {
+          "acres": 4859068.15,
+          "pct_error": 0.0258
+        }
+      }
+    },
+    {
+      "true_acres": 4688877.97,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 4693277.76,
+          "pct_error": 0.0938
+        },
+        "0.002": {
+          "acres": 4693528.38,
+          "pct_error": 0.0992
+        },
+        "0.001": {
+          "acres": 4694224.31,
+          "pct_error": 0.114
+        },
+        "0.0005": {
+          "acres": 4694126.62,
+          "pct_error": 0.1119
+        },
+        "0.0002": {
+          "acres": 4694132.86,
+          "pct_error": 0.1121
+        },
+        "0.0001": {
+          "acres": 4693930.69,
+          "pct_error": 0.1078
+        }
+      }
+    },
+    {
+      "true_acres": 8322022.02,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 8324274.38,
+          "pct_error": 0.0271
+        },
+        "0.002": {
+          "acres": 8321971.7,
+          "pct_error": 0.0006
+        },
+        "0.001": {
+          "acres": 8321453.5,
+          "pct_error": 0.0068
+        },
+        "0.0005": {
+          "acres": 8321738.11,
+          "pct_error": 0.0034
+        },
+        "0.0002": {
+          "acres": 8321778.68,
+          "pct_error": 0.0029
+        },
+        "0.0001": {
+          "acres": 8321839.54,
+          "pct_error": 0.0022
+        }
+      }
+    },
+    {
+      "true_acres": 6579912.15,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 6579159.98,
+          "pct_error": 0.0114
+        },
+        "0.002": {
+          "acres": 6579120.62,
+          "pct_error": 0.012
+        },
+        "0.001": {
+          "acres": 6579680.12,
+          "pct_error": 0.0035
+        },
+        "0.0005": {
+          "acres": 6579811.95,
+          "pct_error": 0.0015
+        },
+        "0.0002": {
+          "acres": 6579871.8,
+          "pct_error": 0.0006
+        },
+        "0.0001": {
+          "acres": 6579898.1,
+          "pct_error": 0.0002
+        }
+      }
+    },
+    {
+      "true_acres": 7526594.38,
+      "by_tolerance": {
+        "0.005": {
+          "acres": 7524242.34,
+          "pct_error": 0.0312
+        },
+        "0.002": {
+          "acres": 7524809.06,
+          "pct_error": 0.0237
+        },
+        "0.001": {
+          "acres": 7524930.49,
+          "pct_error": 0.0221
+        },
+        "0.0005": {
+          "acres": 7524808.93,
+          "pct_error": 0.0237
+        },
+        "0.0002": {
+          "acres": 7524801.53,
+          "pct_error": 0.0238
+        },
+        "0.0001": {
+          "acres": 7524835.02,
+          "pct_error": 0.0234
+        }
+      }
+    }
+  ]
+}

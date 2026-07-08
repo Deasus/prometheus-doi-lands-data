@@ -1,0 +1,48 @@
+name: update-lands
+
+# DOI-Lands boundary mask for PROMETHEUS. Keyless federal sources.
+# Boundaries barely move — weekly is plenty. Manual dispatch supported.
+on:
+  schedule:
+    - cron: '15 6 * * 1'   # Mondays 06:15 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-lands
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install shapely pyproj
+
+      - name: Fetch NPS mask
+        working-directory: .
+        run: |
+          set -e
+          python3 scripts/fetch_nps.py
+
+      - name: Commit changed mask
+        run: |
+          git config user.name  "prometheus-lands-bot"
+          git config user.email "prometheus-lands-bot@users.noreply.github.com"
+          git add data/lands-nps.geojson data/lands-index.json data/lands-nps-benchmark.json
+          if git diff --cached --quiet; then
+            echo "no mask changes"
+          else
+            git commit -m "lands: refresh NPS mask $(date -u +%FT%TZ)"
+            git push
+          fi
