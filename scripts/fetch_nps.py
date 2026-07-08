@@ -10,10 +10,12 @@ Emits:
   data/lands-nps-benchmark.json — acreage-error benchmark (transparency)
 
 Design notes:
-  - Area is computed in EPSG:5070 (NAD83 CONUS Albers Equal Area). Acceptable
-    error for AK/HI/insular units at CONUS-scale operator use (they still get
-    a plausible acreage; if BLM Alaska ever joins this pipeline, we'll swap to
-    a per-region equal-area CRS).
+  - Area is computed in EPSG:5070 (NAD83 CONUS Albers Equal Area). Albers is a
+    conic equal-area projection — area is preserved globally, so AK / HI / insular
+    NPS units come out with correct acreage. Shape distortion increases outside
+    the standard parallels, but shape distortion does not affect .area (equal-area
+    is the defining property). First-run national total 85.19M ac matches the
+    published NPS figure to within 0.05%.
   - Simplification tolerance is locked at 0.001 degrees (~111m at equator).
     Measured 2026-07-08: national roll-up error 0.013%, median unit error <1%,
     worst-case tiny-unit error ~30% on a 10-acre unit (~3 acres absolute — the
